@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-border .el-input__wrapper,
+.el-select .el-input.is-focus .el-input__wrapper{
+    @apply shadow-none;
+}
