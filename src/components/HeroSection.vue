@@ -1,6 +1,7 @@
 <template>
-    <div class="h-[400px] bg-contain mix-blend-multiply" :style="{ backgroundImage: 'url(./bluehouse_exterior_1920w.jpg)' }">
-        <div class="w-full h-full flex  justify-center items-center backdrop-brightness-[.4]">
+    <div class="h-[400px] bg-contain relative" :style="{ backgroundImage: 'url(./bluehouse_exterior_1920w.jpg)' }" >
+        <div class="absolute h-[400px] inset-0 opacity-70 top-[0px]" style="background: linear-gradient(180deg, rgba(59, 77, 129, 0.7) 70%, rgba(59, 77, 129, 0));"></div>
+        <div class="relative w-full h-full flex  justify-center items-center backdrop-brightness-[.4]">
             <div class="text-white w-2/3 text-center">
                 <h3 class="text-4xl ">Find Your Dream Home</h3>
                 <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies placerat felis. Praesent consectetur vestibulum nibh, vitae vulputate odio.</p>

@@ -21,6 +21,7 @@ declare module 'vue' {
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     Navbar: typeof import('./src/components/Navbar.vue')['default']
     PropertyArea: typeof import('./src/components/PropertyArea.vue')['default']
+    PropertyAreaFeature: typeof import('./src/components/PropertyAreaFeature.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SingleProperty: typeof import('./src/components/SingleProperty.vue')['default']
