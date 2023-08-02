@@ -19,6 +19,7 @@ declare module 'vue' {
     IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
+    LatestProperty: typeof import('./src/components/LatestProperty.vue')['default']
     Navbar: typeof import('./src/components/Navbar.vue')['default']
     PropertyArea: typeof import('./src/components/PropertyArea.vue')['default']
     PropertyAreaFeature: typeof import('./src/components/PropertyAreaFeature.vue')['default']

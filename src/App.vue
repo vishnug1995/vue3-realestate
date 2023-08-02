@@ -3,6 +3,7 @@
     <HeroSection/>
     <PropertyArea/>
     <PropertyAreaFeature/>
+    <LatestProperty/>
 </template>
 <script setup>
 
