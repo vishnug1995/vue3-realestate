@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    copy: typeof import('./src/components/LatestProperty copy.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCollapseTransition: typeof import('element-plus/es')['ElCollapseTransition']
     ElImage: typeof import('element-plus/es')['ElImage']
@@ -20,6 +21,7 @@ declare module 'vue' {
     IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
     IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     LatestProperty: typeof import('./src/components/LatestProperty.vue')['default']
+    LatestPropertyRent: typeof import('./src/components/LatestPropertyRent.vue')['default']
     Navbar: typeof import('./src/components/Navbar.vue')['default']
     PropertyArea: typeof import('./src/components/PropertyArea.vue')['default']
     PropertyAreaFeature: typeof import('./src/components/PropertyAreaFeature.vue')['default']

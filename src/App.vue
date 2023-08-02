@@ -4,6 +4,7 @@
     <PropertyArea/>
     <PropertyAreaFeature/>
     <LatestProperty/>
+    <LatestPropertyRent/>
 </template>
 <script setup>
 
