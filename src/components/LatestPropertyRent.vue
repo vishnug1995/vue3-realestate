@@ -8,10 +8,17 @@
             <div class="grid grid-cols-4 gap-x-5 mt-3">
                 <div v-for="(property,key) in properties" :key="key" class="relative h-[426px]">
                     <div style="background: linear-gradient(180deg, rgba(59, 77, 129, 0) -12.86%, rgba(59, 77, 129, 0.5) 106.85%);" class="w-full h-full z-10 absolute rounded-md "></div>
-                    <el-image :src="`/${key+1}.jpg`" class="rounded-md h-full shadow-lg" fit="cover">
-                        
-                    </el-image>
-                    <!-- <h3>{{ property.title }}</h3> -->
+                    <el-image :src="`/${key+1}.jpg`" class="rounded-md h-full shadow-lg" fit="cover"></el-image>
+                    <div class="w-full justify-center flex items-center gap-x-5 text-[#fff] absolute bottom-0 z-10 mb-[15px]">
+                        <div class="flex items-center">
+                            <LaMapMarkerAltSolid class="text-[17px] "/>
+                            <span class="block mt-[0.1rem] ml-1">{{ property.place }}</span>
+                        </div>
+                        <div class="flex items-center">
+                            <BxBuildingHouse class="text-[17px]"/>
+                            <span class="block mt-[0.1rem] ml-1">{{ property.sqft }} sqft</span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -22,7 +29,7 @@
     </div>
 </template>
 <script setup>
-    import { BxCar,BxBath,BxBuildingHouse,AnOutlinedShareAlt,AkHeart,AnOutlinedPlus } from "@kalimahapps/vue-icons";
+    import { LaMapMarkerAltSolid,BxBuildingHouse } from "@kalimahapps/vue-icons";
     const properties = [
         {
             place:'Washington',

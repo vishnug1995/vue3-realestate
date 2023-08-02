@@ -5,6 +5,7 @@
     <PropertyAreaFeature/>
     <LatestProperty/>
     <LatestPropertyRent/>
+    <Contact/>
 </template>
 <script setup>
 
