@@ -6,6 +6,7 @@
     <LatestProperty/>
     <LatestPropertyRent/>
     <Contact/>
+    <Footer/>
 </template>
 <script setup>
 
