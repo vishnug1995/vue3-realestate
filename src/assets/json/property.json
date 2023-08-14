@@ -1,0 +1,142 @@
+[
+    {
+        "title": "1234 Elm Street, Anytown CA 12345",
+        "price": 350000,
+        "car": 2,
+        "bathtub": 3,
+        "sqft": 2000
+    },
+    {
+        "title": "5678 Oak Avenue, Anothercity NY 67890",
+        "price": 450000,
+        "car": 3,
+        "bathtub": 2,
+        "sqft": 1800
+    },
+    {
+        "title": "9876 Maple Lane, Bigcity TX 54321",
+        "price": 550000,
+        "car": 2,
+        "bathtub": 3,
+        "sqft": 2500
+    },
+    {
+        "title": "4321 Pine Road, Smalltown AZ 98765",
+        "price": 300000,
+        "car": 1,
+        "bathtub": 2,
+        "sqft": 1500
+    },
+    {
+        "title": "7890 Birch Court, Countryside CA 24680",
+        "price": 600000,
+        "car": 3,
+        "bathtub": 4,
+        "sqft": 3000
+    },
+    {
+        "title": "5678 Elm Street, Uptown IL 13579",
+        "price": 400000,
+        "car": 2,
+        "bathtub": 3,
+        "sqft": 2200
+    },
+    {
+        "title": "3456 Oak Avenue, Downtown MA 86420",
+        "price": 650000,
+        "car": 3,
+        "bathtub": 4,
+        "sqft": 2800
+    },
+    {
+        "title": "7890 Maple Lane, Suburbia TX 24680",
+        "price": 480000,
+        "car": 2,
+        "bathtub": 3,
+        "sqft": 2100
+    },
+    {
+        "title": "1234 Pine Road, Metropolis FL 13579",
+        "price": 320000,
+        "car": 2,
+        "bathtub": 2,
+        "sqft": 1700
+    },
+    {
+        "title": "6789 Birch Court, Riverside CA 86420",
+        "price": 550000,
+        "car": 3,
+        "bathtub": 3,
+        "sqft": 2400
+    },
+    {
+        "title": "9876 Elm Street, Lakeside NY 54321",
+        "price": 380000,
+        "car": 2,
+        "bathtub": 2,
+        "sqft": 1900
+    },
+    {
+        "title": "4321 Oak Avenue, Mountainside TX 12345",
+        "price": 720000,
+        "car": 3,
+        "bathtub": 4,
+        "sqft": 3200
+    },
+    {
+        "title": "7890 Maple Lane, Seaside CA 67890",
+        "price": 610000,
+        "car": 2,
+        "bathtub": 3,
+        "sqft": 2700
+    },
+    {
+        "title": "5678 Pine Road, Countryside MA 13579",
+        "price": 420000,
+        "car": 2,
+        "bathtub": 2,
+        "sqft": 2000
+    },
+    {
+        "title": "3456 Birch Court, Downtown TX 24680",
+        "price": 520000,
+        "car": 3,
+        "bathtub": 3,
+        "sqft": 2300
+    },
+    {
+        "title": "7890 Elm Street, Suburbia FL 86420",
+        "price": 350000,
+        "car": 2,
+        "bathtub": 2,
+        "sqft": 1600
+    },
+    {
+        "title": "1234 Oak Avenue, Metropolis CA 54321",
+        "price": 470000,
+        "car": 3,
+        "bathtub": 4,
+        "sqft": 2100
+    },
+    {
+        "title": "6789 Maple Lane, Riverside NY 12345",
+        "price": 520000,
+        "car": 2,
+        "bathtub": 3,
+        "sqft": 2300
+    },
+    {
+        "title": "9876 Pine Road, Lakeside TX 67890",
+        "price": 390000,
+        "car": 2,
+        "bathtub": 2,
+        "sqft": 1800
+    },
+    {
+        "title": "4321 Birch Court, Mountainside CA 24680",
+        "price": 680000,
+        "car": 3,
+        "bathtub": 3,
+        "sqft": 2900
+    }
+]

@@ -6,3 +6,7 @@
 .el-select .el-input.is-focus .el-input__wrapper{
     @apply shadow-none;
 }
+
+.el-breadcrumb__inner{
+    @apply !text-white;
+}

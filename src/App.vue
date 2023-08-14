@@ -1,12 +1,5 @@
 <template>
-    <Navbar/>
-    <HeroSection/>
-    <PropertyArea/>
-    <PropertyAreaFeature/>
-    <LatestProperty/>
-    <LatestPropertyRent/>
-    <Contact/>
-    <Footer/>
+    <router-view/>
 </template>
 <script setup>
 

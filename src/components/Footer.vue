@@ -52,7 +52,7 @@
                 <h4 class="text-[22px] text-black">Company</h4>
 
                 <ul class="grid grid-cols-1 gap-y-4 mt-5">
-                    <li>About Us</li>
+                    <li><router-link to="about">About Us</router-link></li>
                     <li>Press</li>
                     <li>Contact</li>
                     <li>Career</li>

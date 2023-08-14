@@ -9,6 +9,9 @@ declare module 'vue' {
   export interface GlobalComponents {
     Contact: typeof import('./src/components/Contact.vue')['default']
     copy: typeof import('./src/components/LatestProperty copy.vue')['default']
+    CoverBanner: typeof import('./src/components/CoverBanner.vue')['default']
+    ElBreadcrumb: typeof import('element-plus/es')['ElBreadcrumb']
+    ElBreadcrumbItem: typeof import('element-plus/es')['ElBreadcrumbItem']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
     ElCollapseTransition: typeof import('element-plus/es')['ElCollapseTransition']
@@ -29,9 +32,12 @@ declare module 'vue' {
     Navbar: typeof import('./src/components/Navbar.vue')['default']
     PropertyArea: typeof import('./src/components/PropertyArea.vue')['default']
     PropertyAreaFeature: typeof import('./src/components/PropertyAreaFeature.vue')['default']
+    PropertyDetails: typeof import('./src/components/PropertyDetails.vue')['default']
+    PropertyListing: typeof import('./src/components/PropertyListing.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SingleProperty: typeof import('./src/components/SingleProperty.vue')['default']
+    SmallBanner: typeof import('./src/components/SmallBanner.vue')['default']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
     WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
   }
